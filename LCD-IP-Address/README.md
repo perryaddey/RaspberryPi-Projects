@@ -3,7 +3,8 @@
 **This is great for people who are trying to use a Raspberry Pi connected to Wi-Fi with a dynamic IP address!**
 
 As a college student, because I use my university's guest wifi, the only way to ssh into my Pi is to use the IP address (i.e. pi@172.31.81.153). 
-Since I'm forced to deal with the dynamic guest wifi IP address, I wrote some code that's super helpful in getting my IP address once I turn the Pi on. 
+Since I'm forced to deal with the dynamic guest wifi IP address, I wrote some code that's super helpful in getting my IP address once I turn the Pi on.
+
 
 ## Instructions
 
@@ -38,3 +39,6 @@ sudo crontab -e
 @reboot sh /home/user/LCD-IP-Address/launcher.sh
 ```
 8. Restart your pi, and the IP Address will display at start up!
+
+## Video 
+https://www.youtube.com/watch?v=MmSqdnEyP-g
